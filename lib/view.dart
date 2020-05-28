@@ -1,3 +1,12 @@
+//***********************************************************
+//*  UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE               *
+//*PROGRAMACION MOVIL                                       *
+//*SUMA DE DOS NUMEROS                                      *
+//*APK                                      *
+//*FERNANDO RODRIGUEZ ANTONY TORRES  ``                     *
+//***********************************************************
+
+
 import 'package:flutter/material.dart';
 import 'package:suma/suma.dart';
 import 'package:string_validator/string_validator.dart';
@@ -14,11 +23,10 @@ class _ViewState extends State<View> {
   final TextEditingController _num2 = TextEditingController();
   final FocusNode _suma1 = FocusNode();
   final FocusNode _suma2 = FocusNode();
-  final FocusNode _total = FocusNode();
   Suma calculadora= Suma();
   String _numero1;
   String _numero2;
-  bool vali = false;
+
   double _resultado;
 
     void  _validareAndSaveForm() {
