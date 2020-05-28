@@ -1,10 +1,18 @@
 # suma
 
-A new Flutter project.
+Proyecto suma de dos números
 
 ## Integrantes
 
-Proyecto suma de dos números
+
+ UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE               
+  PROGRAMACION MOVIL                                       
+  SUMA DE DOS NUMEROS APK                                      
+  FERNANDO RODRIGUEZ ANTONY TORRES                       
+
+
+  Rodrígues Fernando 
+  Antony Torres
 
 
 
