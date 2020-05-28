@@ -108,7 +108,7 @@ class _ViewState extends State<View> {
         controller: _num2,
         keyboardType: TextInputType.number,
         onEditingComplete: () => FocusScope.of(context).requestFocus(_suma2),
-        validator: (value) => (value.isNotEmpty && isFloat(value)) ? null : 'Minimo empty',
+        validator: (value) => (value.isNotEmpty && isFloat(value)) ? null : 'No se permite el uso de caracteres especiales solo el .',
         decoration: InputDecoration(
             labelText: 'Numero 1',
             fillColor: Colors.green,
@@ -133,7 +133,7 @@ class _ViewState extends State<View> {
         textInputAction: TextInputAction.done,
         onEditingComplete:  _validareAndSaveForm,
         keyboardType: TextInputType.number,
-        validator: (value) => (value.isNotEmpty && isFloat(value)) ? null : 'Ingrese Valor 2',
+        validator: (value) => (value.isNotEmpty && isFloat(value)) ? null : 'No se permite el uso de caracteres especiales solo el .',
         decoration: InputDecoration(
             labelText: 'Numero 2',
             fillColor: Colors.green,
